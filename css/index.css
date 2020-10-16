@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+ :root {
+	--main-color: #4C3A32;
+	--accent-color: white;
+    font-family: 'Playfair Display'
+ }
+.header-banner img{
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+  
+header .header-banner {
+	font-family:'Playfair Display', sans-serif;
+	font-size: 5,5 rem;
+	color:#FFFFFF;
+}
+header .menu-items{
+	flex: 1;
+	justify-content: space-around;
+}
+
+header .menu-items a {
+   	display:block;
+   	text-decoration: none;
+	text-transform: capitalize;
+        color:#8FAD3B;
+	border: 1px solid transparent;
+	padding: 5px;
+}
+
+header .menu-items a:hover {
+	border: 1px solid #8FAD3B
+}
+@media (min-width:770px) {
+	header, .header-nav{
+	display: flex;
+}
+header .menu-items{
+	flex: 1;
+	justify-content: space-around;
+}
+header .menu-items {
+	display: flex;
+	align-items: center;
+	
+}
+header .header-banner {
+	background-image: url(../img/cup.png);
+	background-position: center;
+	background-size: cover;
+	min-height: 450;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+header .header-banner h1{
+	font-family:'Playfair Display', sans-serif;
+	font-size: 5,5 rem;
+	color:#FFFFFF;
+}
+body{
+	max-width:980px;
+	margin: auto;
+}
+	
